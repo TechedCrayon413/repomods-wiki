@@ -89,17 +89,27 @@ The **R.E.P.O. Project Patcher** does **not** support **Beta** or other branches
 
    You will now see new options in the Inspector panel. Leave all the pre-filled fields as they are and only enter the path to your game folder:
 
+   If you do not see the tools tab check the console in the bottom left of the screen and look for any resulting errors, make sure that you have installed all three git url packages **one by one** from step two.
+   
+
    ![Screenshot](/unity/3.png)
 
-4. Back in the menu bar, open the Patcher Window by going to **`Tools > Unity Project Patcher > Open Window`**:
+   A correct example path would be.
+   C:\Program Files (x86)\Steam\steamapps\common\REPO
+
+   A incorrect paths would be.
+   "C:\Program Files (x86)\Steam\steamapps\common\REPO" (Has quotations " " at start and end of file path)
+   "C:\Program Files (x86)\Steam\steamapps\common\REPO\REPO.exe" (Has the path leading to REPO.exe inside the REPO folder instead of leading to the REPO folder)
+   
+5. Back in the menu bar, open the Patcher Window by going to **`Tools > Unity Project Patcher > Open Window`**:
 
    ![Screenshot](/unity/4.png)
 
-5. In the newly opened `UPPatcher - RepoWrapper` window, click `Enable BepInEx` at the bottom of the window and wait for the process to finish:
+6. In the newly opened `UPPatcher - RepoWrapper` window, click `Enable BepInEx` at the bottom of the window and wait for the process to finish:
 
    ![Screenshot](/unity/5.png)
 
-6. Once BepInEx is enabled, click `Run Patcher` at the Top of the window to begin patching the project:
+7. Once BepInEx is enabled, click `Run Patcher` at the Top of the window to begin patching the project:
 
    ![Screenshot](/unity/6.png)
 
